@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+#list {
+  position: absolute;
+  font-size: 16px;
+  left: 600px;
+  top: 80px;
+}
+
+#cityname {
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+#result {
+  width: 500px;
+  position: absolute;
+  left: 600px;
+}
+
+#form {
+  position: fixed;
+  top: 80px;
+  z-index: 20;
+}
+
+h1 {
+  position: fixed;
+}
+
+.pin:hover {
+  width: 50px;
+  height: 50px;
+}
+
+.cell {
+  text-Align: center;
+  min-width: 100px;
+}
+
+.icon {
+  text-Align: center;
+}
+
+#map {
+  position: absolute;
+  top: 70px;
+  z-index: -10;
+}
+
+#submit {
+  position: fixed;
+  width: 506px;
+  height: 546px;
+}
+
+/* ここから下がそれぞれのピンの設定 */
+#to {
+  position: absolute;
+  cursor: pointer;
+  top: 75%;
+  left: 85%;
+}
+
+#os {
+  position: absolute;
+  cursor: pointer;
+  top: 75%;
+  left: 48%;
+}
+
+#na {
+  position: absolute;
+  cursor: pointer;
+  top: 80%;
+  left: 65%;
+}
+
+#fu {
+  position: absolute;
+  cursor: pointer;
+  top: 65%;
+  left: 20%;
+}
+
+#sa {
+  position: absolute;
+  cursor: pointer;
+  top: 25%;
+  left: 80%;
+}
+
+#se {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 90%;
+}
+
+#hi {
+  position: absolute;
+  cursor: pointer;
+  top: 390px;
+  left: 160px;
+}
+
+#ha {
+  position: absolute;
+  cursor: pointer;
+  top: 82%;
+  left: 72%;
+}
+
+#ku {
+  position: absolute;
+  cursor: pointer;
+  top: 75%;
+  left: 13%;
+}
+
+#ni {
+  position: absolute;
+  cursor: pointer;
+  top: 52%;
+  left: 75%;
+}
+
+#ma {
+  position: absolute;
+  cursor: pointer;
+  top: 83%;
+  left: 30%;
+}

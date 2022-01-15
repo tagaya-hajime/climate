@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>天気検索</title>
+  <script src="climate_js.js"></script>
+  <link rel="stylesheet" href="climate_css.css">
+</head>
+
+<body>
+  <h1>5日間の天気</h1>
+  <form id="form" onsubmit="return false;">
+    <input id="input" value="" onkeydown="popup('input')"/>
+    <input type="button" value="表示" onclick="popup('input')" />
+  </form>
+  <div id="submit">
+    <img id="map" src="sys_img/japan.png" alt="error!!!">
+    <img id="to" class="pin" onclick="popup('tokyo')" src="sys_img/pin.png" />
+    <img id="os" class="pin" onclick="popup('osaka')" src="sys_img/pin.png" />
+    <img id="na" class="pin" onclick="popup('nagoya')" src="sys_img/pin.png" />
+    <img id="fu" class="pin" onclick="popup('fukuoka')" src="sys_img/pin.png" />
+    <img id="sa" class="pin" onclick="popup('sapporo')" src="sys_img/pin.png" />
+    <img id="se" class="pin" onclick="popup('sendai')" src="sys_img/pin.png" />
+    <img id="hi" class="pin" onclick="popup('hiroshima')" src="sys_img/pin.png" />
+    <img id="ha" class="pin" onclick="popup('hamamatsu')" src="sys_img/pin.png" />
+    <img id="ku" class="pin" onclick="popup('kumamoto')" src="sys_img/pin.png" />
+    <img id="ni" class="pin" onclick="popup('niigata')" src="sys_img/pin.png" />
+    <img id="ma" class="pin" onclick="popup('matsuyama')" src="sys_img/pin.png" />
+  </div>
+  <div id="result">
+    <div id="cityname"></div>
+    <div id="list"></div>
+  </div>
+</body>
+
+</html>
